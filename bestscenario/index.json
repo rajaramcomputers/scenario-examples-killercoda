@@ -1,31 +1,21 @@
-{
-  "title": "My First Scenario",
-  "description": "This is a description of my first interactive scenario.",
-  "difficulty": "beginner",
-  "time": "10 minutes",
+
+  "title": "Ubuntu Custom Content",
+  "description": "Write custom markdown for all phases",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Step 1: Introduction",
+        "title": "Let's update our package manager repository",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2: Running Commands",
-        "text": "step2.md"
       }
     ],
     "finish": {
       "text": "finish.md"
     }
   },
-  "environment": {
-    "showide": true,
-    "uieditorpath": "/root"
-  },
   "backend": {
-    "imageid": "ubuntu:latest"
+    "imageid": "ubuntu"
   }
 }
