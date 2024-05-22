@@ -1,5 +1,20 @@
 {
-  "title": "Ubuntu Practice",
+  "title": "Ubuntu Custom - By Ramkumar",
+  "description": "Write custom markdown for all phases",
+  "details": {
+    "intro": {
+      "text": "step1.md"
+    },
+    "steps": [
+      {
+        "title": "Let's update our package manager repository",
+        "text": "step2.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
   "backend": {
     "imageid": "ubuntu"
   }
