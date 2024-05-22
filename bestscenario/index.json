@@ -1,21 +1,31 @@
 {
   "title": "My First Scenario",
   "description": "This is a description of my first interactive scenario.",
-  "environment": {
-    "docker": {
-      "image": "ubuntu:latest",
-      "entrypoint": "/bin/bash"
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1: Introduction",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: Running Commands",
+        "text": "step2.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
     }
   },
-  "steps": [
-    {
-      "title": "Step 1: Introduction",
-      "text": "Welcome to the first step of the scenario."
-    },
-    {
-      "title": "Step 2: Running Commands",
-      "text": "Run the following command:\n\n```\nls -la\n```"
-    }
-  ]
+  "environment": {
+    "showide": true,
+    "uieditorpath": "/root"
+  },
+  "backend": {
+    "imageid": "ubuntu:latest"
+  }
 }
-
